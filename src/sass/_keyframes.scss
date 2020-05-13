@@ -1,0 +1,81 @@
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-3000vw);
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    background: red;
+  }
+
+  25% {
+    background: yellow;
+  }
+
+  50% {
+    background: rgb(235, 235, 13);
+  }
+
+  75% {
+    background: black;
+  }
+
+  100% {
+    background: red;
+  }
+}
+
+@-webkit-keyframes colorchange
+    
+    /* Safari and Chrome - necessary duplicate */ {
+  0% {
+    background: red;
+  }
+
+  25% {
+    background: yellow;
+  }
+
+  50% {
+    background: blue;
+  }
+
+  75% {
+    background: green;
+  }
+
+  100% {
+    background: red;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes mouseFadeOut {
+  0% {
+    background-color: rgba(255, 255, 0, 1);
+    display: block;
+    border: 1px solid #000;
+  }
+
+  100% {
+    display: none;
+    opacity: 0%;
+    // background-color: rgba(255, 255, 0, 0);
+    background-color: transparent;
+    border: 1px solid palevioletred;
+  }
+}

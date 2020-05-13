@@ -1,0 +1,139 @@
+/* ABOUT SECTION */
+.section-full-vh {
+  height: 100vh;
+}
+
+.about-section-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#canvasCover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+}
+
+.pig-nose {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .pig-nose-inner {
+    transform: translate(-50%, -50%) scale(0.6) !important;
+    display: block;
+    outline: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+/* techno */
+.techno {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  background-image: url(../assets/kalkbrenner.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* raver */
+.raver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  background-image: url(../assets/raver.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* gabber */
+.gabber {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  background-image: url(../assets/gabber.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.acid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  background-image: url(../assets/acid.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-inner-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  z-index: 5;
+  p {
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+  }
+  /* colour wheel */
+  .colour-wheel {
+    display: inline-block;
+  }
+  .circle {
+    top: 250px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.5s;
+    pointer-events: none;
+    cursor: default;
+    z-index: -2;
+    animation: rotation 1s infinite linear;
+  }
+}
+
+.fade {
+  transition: opacity 1.5s ease;
+}
+
+.loading {
+  opacity: 1;
+}

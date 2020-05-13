@@ -1,0 +1,44 @@
+/* ARTISTS SECTION */
+.info-container {
+  position: sticky;
+  paxdding-right: 30px;
+  top: 45px;
+  toxp: 30vh;
+  min-width: 300px;
+  max-wixdth: 600px;
+  padding-bottom: 15px;
+  paddxing-bottom: calc(70vh + 15px);
+  .head {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    // padding: 25px 0 0 15px;
+    line-height: 1.1em;
+  }
+  .artists-list {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 20px;
+    li {
+      font-size: 1.2em;
+      text-align: left;
+      line-height: 1.7em;
+    }
+  }
+}
+.artists-collage {
+  background: url(../assets/grid.png);
+  &:hover {
+    cursor: url("../assets/cursor-red.svg"), auto;
+  }
+}
+
+.second {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  transform: translate(-50%, -50%) scale(0.8);
+}

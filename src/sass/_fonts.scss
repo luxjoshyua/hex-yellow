@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "NB Akademie Std";
+  src: url(../assets/fonts/NBAkademieStd-Regular.woff) format("woff2"),
+    url(../assets/fonts/NBAkademieStd-Regular.woff2) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NB Akademie Std Black";
+  src: url(../assets/fonts/NBAkademieStd-Black.woff) format("woff2"),
+    url(../assets/fonts/NBAkademieStd-Black.woff2) format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
