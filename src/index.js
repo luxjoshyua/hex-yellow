@@ -20,5 +20,4 @@ homeCircles.addEventListener("click", (e) => {
   colour();
 });
 
-// import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
 import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
