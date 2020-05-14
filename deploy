@@ -1,5 +1,5 @@
 #!/bin/bash
-GIT="https://github.com/luxjoshyua/portfolio.git"
+GIT="https://github.com/luxjoshyua/hex-yellow-webpack.git"
 # Get todays date
 NOW=$(date +“%d-%m-%Y”)
 echo $NOW

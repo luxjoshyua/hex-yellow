@@ -19,7 +19,7 @@ ul {
   top: 45px;
   min-width: 300px;
   max-width: 600px;
-  padding: 0 0 15px 20px;
+  padding: 0 0 15px 30px;
   padding-bottom: calc(70vh + 15px);
 }
 
@@ -56,4 +56,16 @@ li a:hover {
   cursor: pointer;
   color: #000;
   -webkit-text-stroke: 2px #fff;
+}
+
+.border-top {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+}
+.border-top-right-white {
+  border-top: 1px dotted #fff;
+  border-right: 1px dotted #fff;
+}
+.border-top-white {
+  border-top: 1px dotted #fff;
 }

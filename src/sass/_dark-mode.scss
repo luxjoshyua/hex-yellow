@@ -1,0 +1,24 @@
+body {
+  &.inverted {
+    color: #fff;
+    background-color: #0f0f0f;
+    .news-label {
+      color: #000;
+    }
+    .marquee span {
+      color: #000;
+    }
+    .border-top {
+      border-top: 1px dotted #fff;
+      border-bottom: 1px dotted #fff;
+      border-right: 1px dotted #fff;
+    }
+    .border-top-right-white {
+      border-top: 1px dotted #000;
+      border-right: 1px dotted #000;
+    }
+    .border-top-white {
+      border-top: 1px dotted #000;
+    }
+  }
+}

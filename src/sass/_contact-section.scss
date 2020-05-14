@@ -1,0 +1,113 @@
+/* CONTACT SECTION */
+p.sub-head-intro {
+  font-size: 1.1em;
+  text-transform: none;
+  line-height: 1.5em;
+}
+
+.contact-section-container {
+  background-color: #000;
+
+  .contact-container-inner {
+    border-right: 1px dotted #fff !important;
+
+    .white {
+      color: #fff;
+      padding-top: 30px;
+    }
+  }
+}
+
+.head {
+  padding-bottom: 15px;
+}
+
+.head-white {
+  color: #fff;
+}
+
+.contact-body-descrip {
+  color: #fff;
+}
+
+.bg-blk-link {
+  color: #fff;
+  &:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
+  }
+}
+
+/* bye message */
+.bye-container {
+  margin-top: 180px;
+}
+
+/* bye message font-styling */
+.bye-title {
+  font-size: 23.47222vw;
+  line-height: 19.86111vw;
+  letter-spacing: -0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.bye-title span {
+  display: block;
+}
+
+.row-1 {
+  margin-left: 40%;
+}
+
+.row-2 {
+  margin-top: 36px;
+}
+
+.row-3 {
+  margin-top: 36px;
+  margin-left: 30%;
+}
+
+/* back-to-top link */
+
+.footer-container {
+  height: 332px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer-top {
+  position: relative;
+  left: 20%;
+  text-align: center;
+  width: 9.86111vw;
+  height: 14.86111vw;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.footer-top-arrow {
+  font-size: 10.97222vw;
+  line-height: 16.88889vw;
+  top: 0;
+  font-family: "NB Akademie Std";
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.footer-top-arrow,
+.footer-top-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.footer-top-line {
+  bottom: 18px;
+  height: 0.48611vw;
+  border: 1px solid #fff;
+}
