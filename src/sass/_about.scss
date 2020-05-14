@@ -125,12 +125,19 @@
     cursor: default;
     z-index: -2;
     animation: rotation 1s infinite linear;
+    &:hover {
+      display: block;
+      opacity: 1;
+    }
   }
 }
 
 /* colour wheel */
 .colour-wheel {
   display: inline-block;
+  &:hover {
+    opacity: 1;
+  }
 }
 .fade {
   transition: opacity 1.5s ease;
