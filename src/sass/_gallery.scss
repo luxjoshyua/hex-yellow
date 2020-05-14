@@ -1,3 +1,6 @@
+#gallery-sec {
+  height: 80vh !important;
+}
 .gallery-info-container {
   padding-top: 30px !important;
   .sub-head {
@@ -7,10 +10,8 @@
 
 .gallery {
   position: relative;
-  /* top: 250px; */
   top: 50%;
   left: 50%;
-  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   width: 850px;
   transform: translate(-50%, -50%);
