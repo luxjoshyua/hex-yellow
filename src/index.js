@@ -4,7 +4,7 @@ import style from "./sass/index.scss";
 import "./js/about-section";
 import colour from "./js/circles";
 import "./js/clickable-collage";
-import "./js/dark-mode";
+import colourInvert from "./js/dark-mode";
 import "./js/gallery";
 import "./js/marquee";
 import "./js/mouse-print-yellow";
@@ -20,3 +20,8 @@ homeCircles.addEventListener("click", (e) => {
 });
 
 import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
+
+const logo = document.querySelector(".logo");
+logo.addEventListener("click", (e) => {
+  colourInvert();
+});

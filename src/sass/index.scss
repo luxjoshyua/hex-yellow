@@ -47,11 +47,7 @@ a {
   }
 }
 
-p,
-dl,
-ul {
-  padding: 26px 15px 0;
-}
+
 
 ::-webkit-scrollbar {
   width: 15px;
@@ -104,20 +100,7 @@ section {
 
 /* HEADING TEXT */
 
-.heading-outer {
-  width: 200px;
-}
 
-.info-container {
-  position: sticky;
-  paxdding-right: 30px;
-  top: 45px;
-  toxp: 30vh;
-  min-width: 300px;
-  max-wixdth: 600px;
-  padding-bottom: 15px;
-  paddxing-bottom: calc(70vh + 15px);
-}
 
 .second {
   position: relative;
@@ -234,6 +217,7 @@ img.blue-ellipse-inner {
 
 .descrip p {
   max-width: 28em;
+  padding-bottom: 12px;
 }
 
 .artist-body-descrip,
