@@ -80,7 +80,7 @@ if (orientationSupport) {
   window.addEventListener("mousemove", handleMouseMovement, false);
 }
 
-$("map").imageMapResize();
+// $("map").imageMapResize();
 
 $("area").click(function(e) {
   e.preventDefault();
