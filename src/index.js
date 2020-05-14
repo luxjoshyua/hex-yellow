@@ -2,7 +2,7 @@ import style from "./sass/index.scss";
 // import jquery from "jquery";
 
 import "./js/about-section";
-import "./js/circles";
+import colour from "./js/circles";
 import "./js/clickable-collage";
 import "./js/dark-mode";
 import "./js/gallery";

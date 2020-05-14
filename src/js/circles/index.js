@@ -6,7 +6,7 @@ $(function () {
     $(".home, .highlXight").css("background-color", rand);
 });
 
-function colour() {
+export default function colour () {
     console.log("Func is being reached");
     var randr = Math.floor(Math.random() * 255);
     var randg = Math.floor(Math.random() * 255);
