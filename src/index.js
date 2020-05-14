@@ -16,7 +16,6 @@ import "./js/text-reveal";
 
 const homeCircles = document.getElementById("home");
 homeCircles.addEventListener("click", (e) => {
-  console.log("We've reached here in index.js");
   colour();
 });
 
