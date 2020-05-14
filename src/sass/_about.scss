@@ -54,7 +54,7 @@
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-image: url(../assets/kalkbrenner.gif);
+  background-image: url(../assets/images/kalkbrenner.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -67,7 +67,7 @@
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-image: url(../assets/raver.gif);
+  background-image: url(../assets/images/raver.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-image: url(../assets/gabber.gif);
+  background-image: url(../assets/images/gabber.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +92,7 @@
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-image: url(../assets/acid.gif);
+  background-image: url(../assets/images/acid.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,5 +135,5 @@
 }
 
 .loading {
-  opacity: 1;
+  opacity: 1 !important;
 }

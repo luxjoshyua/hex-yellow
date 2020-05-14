@@ -2,7 +2,7 @@ import style from "./sass/index.scss";
 // import jquery from "jquery";
 
 import "./js/about-section";
-import "./js/circles";
+import colour from "./js/circles";
 import "./js/clickable-collage";
 import "./js/dark-mode";
 import "./js/gallery";
@@ -16,8 +16,7 @@ import "./js/text-reveal";
 
 const homeCircles = document.getElementById("home");
 homeCircles.addEventListener("click", (e) => {
-  console.log("We've reached here in index.js");
   colour();
 });
 
-// import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
+import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
