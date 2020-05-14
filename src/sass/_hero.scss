@@ -2,7 +2,10 @@
   padding-top: 46px;
   .container {
     .hero-info-container {
-      padding-top: 32px;
+      padding-top: 46px;
+      .hero-info-head {
+        padding-bottom: 0;
+      }
       .sub-head {
         padding-top: 0;
         margin-top: 10px;
