@@ -110,11 +110,9 @@
     text-align: center;
     margin: 0;
   }
-  /* colour wheel */
-  .colour-wheel {
-    display: inline-block;
-  }
+
   .circle {
+    display: none;
     top: 250px;
     left: 200px;
     transform: translate(-50%, -50%);
@@ -130,10 +128,14 @@
   }
 }
 
+/* colour wheel */
+.colour-wheel {
+  display: inline-block;
+}
 .fade {
   transition: opacity 1.5s ease;
 }
 
 .loading {
-  opacity: 1;
+  opacity: 1 !important;
 }
