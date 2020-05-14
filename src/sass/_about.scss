@@ -111,38 +111,36 @@
     margin: 0;
   }
 
-  .circle {
-    display: none;
-    top: 250px;
-    left: 200px;
-    transform: translate(-50%, -50%);
-    width: 240px;
-    height: 240px;
-    position: absolute;
-    opacity: 0;
-    transition: all ease 0.5s;
-    pointer-events: none;
-    cursor: default;
-    z-index: -2;
-    animation: rotation 1s infinite linear;
-    &:hover {
+  /* colour wheel */
+  .colour-wheel {
+    display: inline-block;
+    // &:hover {
+    //   background-image: url("../assets/images/loading-wheel.svg");
+    // }
+    opacity: 1;
+    .circle {
+      display: none;
+      top: 250px;
+      left: 200px;
+      transform: translate(-50%, -50%);
+      width: 240px;
+      height: 240px;
+      position: absolute;
+      opacity: 0;
+      transition: all ease 0.5s;
+      pointer-events: none;
+      cursor: default;
+      z-index: -2;
+      animation: rotation 1s infinite linear;
+    }
+    .circle-active {
       display: block;
       opacity: 1;
+      z-index: -2;
+      transition: all;
+    }
+    .fade {
+      transition: opacity 1.5s ease;
     }
   }
-}
-
-/* colour wheel */
-.colour-wheel {
-  display: inline-block;
-  &:hover {
-    opacity: 1;
-  }
-}
-.fade {
-  transition: opacity 1.5s ease;
-}
-
-.loading {
-  opacity: 1 !important;
 }
