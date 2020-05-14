@@ -13,4 +13,11 @@ import "./js/scale";
 import "./js/scroll-bg-colour";
 import "./js/scroll-section-animate";
 import "./js/text-reveal";
-import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
+
+const homeCircles = document.getElementById("home");
+homeCircles.addEventListener("click", (e) => {
+  console.log("We've reached here in index.js");
+  colour();
+});
+
+// import "./js/piggy-animate"; // moving to the bottom means the other scripts still run, hacky solution, fix
