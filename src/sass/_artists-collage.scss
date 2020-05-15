@@ -18,8 +18,18 @@
 }
 .artists-collage {
   background: url(../assets/images/grid.png);
+  position: relative;
+  z-index: 5;
+  background-color: white;
+  //   margin: 0 4em;
+  //   height: 120vh;
   &:hover {
     cursor: url("../assets/images/cursor-red.svg"), auto;
+  }
+  .collage-draw {
+    vertical-align: bottom;
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 
@@ -27,9 +37,9 @@
   position: relative;
 }
 
-img {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  transform: translate(-50%, -50%) scale(0.8);
-}
+// img {
+//   position: absolute;
+//   top: 200px;
+//   left: 200px;
+//   transform: translate(-50%, -50%) scale(0.8);
+// }

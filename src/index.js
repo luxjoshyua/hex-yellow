@@ -3,7 +3,7 @@ import style from "./sass/index.scss";
 
 import "./js/about-section";
 import colour from "./js/circles";
-import "./js/clickable-collage";
+import "./js/clickable-collage-drag";
 import colourInvert from "./js/dark-mode";
 import "./js/gallery";
 import "./js/marquee";
