@@ -1,14 +1,16 @@
-# easy-build-template
+# hex yellow
+Experimental site for Sydney rave series
 
 # Getting started
 
-1. \$ nvm use
-2. \$ npm i
+1. git clone
+2. \$ nvm use
+3. \$ npm i
 
 # Once loaded, need to start the server
 
-3. \$ npm start
+4. \$ npm start
 
 # Once ready to ship
 
-4. \$ bash deploy // make sure the git repo is changed to the appropriate location
+5. \$ bash deploy // make sure the git repo is changed to the appropriate location
