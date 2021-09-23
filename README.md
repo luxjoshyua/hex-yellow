@@ -1,4 +1,4 @@
-# hex yellow
+# Hex Yellow
 Experimental site for Sydney rave series
 
 # Getting started
