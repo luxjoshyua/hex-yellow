@@ -1,19 +1,19 @@
-@import "media-queries";
-@import "variables";
-@import "fonts";
-@import "hero";
-@import "gallery";
-@import "menu";
-@import "keyframes";
-@import "columns";
-@import "circles";
-@import "artists-collage";
-@import "about";
-@import "common";
-@import "manifesto";
-@import "dark-mode";
-@import "contact-section";
-@import "base";
+@import 'media-queries';
+@import 'variables';
+@import 'fonts';
+@import 'hero';
+@import 'gallery';
+@import 'menu';
+@import 'keyframes';
+@import 'columns';
+@import 'circles';
+@import 'artists-collage';
+@import 'about';
+@import 'common';
+@import 'manifesto';
+@import 'dark-mode';
+@import 'contact-section';
+@import 'base';
 
 html,
 body {
@@ -26,7 +26,7 @@ body {
 }
 
 body {
-  font-family: "NB Akademie Std";
+  font-family: 'NB Akademie Std';
   -webkit-font-smoothing: antialised;
   font-size: 16px;
   line-height: 1.5;
@@ -168,6 +168,10 @@ iframe {
   top: 0px;
   left: 0px;
   transform: translate(0%) scale(1);
+  &--drvg {
+    height: 700px;
+    object-fit: cover;
+  }
 }
 
 .img-last-section {
